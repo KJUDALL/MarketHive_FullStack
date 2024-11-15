@@ -1,0 +1,19 @@
+{
+  "name": "project02",
+  "version": "1.0.0",
+  "description": "This is our Group Project #2. We are building an E-Commerce full stack app. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KJUDALL/MarketHive_FullStack.git"
+  },
+  "author": "kjudall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KJUDALL/MarketHive_FullStack/issues"
+  },
+  "homepage": "https://github.com/KJUDALL/MarketHive_FullStack#readme"
+}

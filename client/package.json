@@ -1,0 +1,19 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "This package will help build and run the client side of our app. ",
+  "main": "Main.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KJUDALL/MarketHive_FullStack.git"
+  },
+  "author": "kjudall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KJUDALL/MarketHive_FullStack/issues"
+  },
+  "homepage": "https://github.com/KJUDALL/MarketHive_FullStack#readme"
+}

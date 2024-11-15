@@ -1,0 +1,1 @@
+// Layout/content of footer consistently displayed at bottom of application

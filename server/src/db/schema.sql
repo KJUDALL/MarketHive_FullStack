@@ -1,0 +1,1 @@
+-- Defines stucture of DB tables
