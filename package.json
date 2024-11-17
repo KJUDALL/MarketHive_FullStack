@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/KJUDALL/MarketHive_FullStack/issues"
   },
-  "homepage": "https://github.com/KJUDALL/MarketHive_FullStack#readme"
+  "homepage": "https://github.com/KJUDALL/MarketHive_FullStack#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "sequelize": "^6.37.5",
+    "vite": "^5.4.11"
+  }
 }
