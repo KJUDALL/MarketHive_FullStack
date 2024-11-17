@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/KJUDALL/MarketHive_FullStack/issues"
   },
-  "homepage": "https://github.com/KJUDALL/MarketHive_FullStack#readme"
+  "homepage": "https://github.com/KJUDALL/MarketHive_FullStack#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2"
+  }
 }

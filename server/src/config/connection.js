@@ -1,4 +1,3 @@
-//connect to DB. See image from rahul
 // use DB_URL as listed in Render
 let sequelize;
 
