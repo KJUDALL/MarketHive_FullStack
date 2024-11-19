@@ -1,0 +1,1 @@
+// Handles routes like /products or /products/:id
