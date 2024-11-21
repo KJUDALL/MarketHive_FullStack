@@ -1,5 +1,5 @@
-import Product from "./products";
-import sequelize from "../config/connection";
-import User from "./user";
+import Product from "./products.js";
+import sequelize from "../config/connection.js";
+import User from "./user.js";
 
-export default { Product, User, sequelize };
+export { Product, User, sequelize };

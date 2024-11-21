@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 import { DataTypes } from "sequelize";
 import bcrypt from 'bcrypt';
-import sequelize from "../config/connection";
+import sequelize from "../config/connection.js";
 
 const User = sequelize.define('User', {
     username: {
@@ -37,7 +37,7 @@ User.beforeCreate(async (user) => {
 
 //validate password 
 User.prototype.validPassword = async function (password) {
-    return bcrypt.compare(passwordm, this.password);
+    return bcrypt.compare(password, this.password);
 };
 
 export default User;

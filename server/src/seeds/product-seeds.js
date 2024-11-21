@@ -1,4 +1,4 @@
-import Product from "../models/products";
+import { Product } from "../models/index.js";
 
 const productData = [
     { name: 'Hat', price: 12.99, stock: 15 },

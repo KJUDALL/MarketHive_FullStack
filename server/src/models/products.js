@@ -1,5 +1,5 @@
 //Show tables in DB and connect with schema
-import sequelize from '../config/connection';
+import sequelize from '../config/connection.js';
 import { DataTypes } from 'sequelize';
 
 const Product = sequelize.define('Product', {

@@ -1,4 +1,4 @@
-import Product from "../models/products"
+import { Product } from "../models/index.js";
 
 // Handles product-related logic.
 //Get all products
@@ -24,4 +24,4 @@ const getProductById = async (req, res) => {
     }
 };
 
-export default { getAllProducts, getProductById };
+export { getAllProducts, getProductById };

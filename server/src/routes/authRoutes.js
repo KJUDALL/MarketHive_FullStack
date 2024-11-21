@@ -1,17 +1,17 @@
 // Routes related to authentication
 //Handles authentication routes like /login or /signup
 import express from 'express';
-import { registration, loginUser, logoutUser } from '../controllers/user-controller';
+import { register, login } from '../controllers/user-controller.js';
 
 const router = express.Router();
 
 //register new user
-router.post('/registration', registration);
+router.post('/registration', register);
 
 //login user
-router.post('/login', loginUser);
+router.post('/login', login);
 
-//logout user
-router.post('/logout', logoutUser);
+// //logout user
+// router.post('/logout', logoutUser);
 
 export default router;

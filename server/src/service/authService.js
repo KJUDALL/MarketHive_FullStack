@@ -1,7 +1,7 @@
 //Service folder contains service layer - includes business logic and interactions with DB
 // This file - Business logic related to authentication
 import jwt from 'jsonwebtoken';
-import { User } from '../models';
+import { User } from '../models/index.js';
 import { parseAst } from 'vite';
 
 const loginUser = async (email, password) => {
@@ -21,4 +21,4 @@ const registerUser = async (userData) => { //create new user
     }
 };
 
-export default { loginUser, registerUser };
+export { loginUser, registerUser };

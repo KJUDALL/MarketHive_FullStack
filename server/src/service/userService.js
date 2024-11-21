@@ -1,5 +1,5 @@
 // Business logic related to users - CRUD operations for management
-import { User } from '../models';
+import { User } from '../models/index.js';
 
 const getAllUsers = async () => {
     try {
@@ -31,4 +31,4 @@ const createUser = async (userData) => {
     }
 };
 
-export default { getAllUsers, getUserById, createUser };
+export { getAllUsers, getUserById, createUser };

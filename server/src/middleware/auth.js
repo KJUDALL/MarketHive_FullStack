@@ -2,7 +2,7 @@
 // const express = require('express');
 // const bcrypt = require('bcryptjs');
 // const jwt = require('jsonwebtoken');
-// const User = require('../models/User');
+// const User = require('../models/index.js/User');
 
 // const router = express.Router();
 
@@ -29,7 +29,7 @@
 import jwt from 'jsonwebtoken';
 
 const authenticateToken = (req, res, next) => {
-    const token = req.header(Authorization)?.split(' ')[1];
+    const token = req.header('Authorization')?.split(' ')[1];
     if (!token) {
         return res.status(401).json({ message: 'Unauthorized: token needed.' });
     }
