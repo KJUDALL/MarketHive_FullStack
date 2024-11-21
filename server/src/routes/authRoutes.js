@@ -2,8 +2,8 @@
 //Handles authentication routes like /login or /signup
 import express from 'express';
 import { registration, loginUser, logoutUser } from '../controllers/user-controller';
-import router from 'express.router';
-import { defineConfig } from 'vite';
+
+const router = express.Router();
 
 //register new user
 router.post('/registration', registration);
