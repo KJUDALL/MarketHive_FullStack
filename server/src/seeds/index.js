@@ -3,7 +3,7 @@ import seedProducts from "./product-seeds";
 
 const seedAll = async () => {
     try {
-        await sequelize.sync({ alter: true }); //doesn't remove existing data
+        await sequelize.sync({ force: true }); //drops existing data for project sake
         console.log('Database synced without dropping tables.');
 
         await seedProducts();
