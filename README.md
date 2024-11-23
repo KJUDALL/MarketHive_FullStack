@@ -7,10 +7,21 @@ Who says being a shopaholic is a bad thing? If you're looking for a website that
 ## Table of Contents
 
 - [Description](#description)
+- [Deployment Link](#deployment)
+- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Questions](#questions)
+
+## Deployment 
+Here is a link to our deployed application: https://markethive-fullstack.onrender.com
+
+## Screenshots
+Unfortunately, we did not get a chance to finish out the frontend portion of our full stack app. However, here are screenshots of the wireframe to depict what we would like it to appear as. 
+
+![Wireframe Screenshot 1](./assets/homepage.png)
+![Wireframe Screenshot 2](./assets/product_card.png)
 
 ## Installation
 
@@ -19,10 +30,6 @@ Users can clone this code repo using an IDE of choice. They must ensure node.js 
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## License
-
-    This project is licensed under the MIT license. For more info, see [this link](https://opensource.org/licenses/MIT).
 
 ## Questions
 
